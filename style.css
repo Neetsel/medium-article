@@ -1,0 +1,57 @@
+body {
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+}
+
+.banner {
+  background-image: url("images/junel-mujar-DTGaBi6BCvw-unsplash.jpg");
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.banner h1 {
+  font-size: 38px;
+}
+
+.container {
+    width: 1000px;
+    margin: 50px auto;
+  }
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  color: #A0A0A0;
+  font-weight: normal;
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 760px;
+  }
+}
+
+
+@media(max-width: 768px) {
+  .container {
+    width: 550px;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 350px;
+  }
+}
